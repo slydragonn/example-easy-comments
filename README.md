@@ -1,6 +1,8 @@
 # React Easy Comments - Example
 
-Create comment sections easily - [__See documentation__]("https://github.com/slydragonn/react-easy-comments")
+Create comment sections easily - [__See documentation__](https://github.com/slydragonn/react-easy-comments)
+
+- [__Demo__](https://example-easy-comments.vercel.app/)
 
 ## Install
 
