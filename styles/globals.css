@@ -14,3 +14,35 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1 {
+  text-align: center;
+}
+
+.commentsSections {
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+  padding: 0 20px;
+}
+
+.commentsSections > div {
+  width: 50%;
+}
+
+.commentsSections > div > h3 {
+  margin: 0 0 20px 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .commentsSections {
+    flex-direction: column;
+  }
+  .commentsSections > div {
+    width: 100%;
+  }
+  .commentsSections > div > h3 {
+    text-align: center;
+    margin: 50px 0 20px 0;
+  }
+}
